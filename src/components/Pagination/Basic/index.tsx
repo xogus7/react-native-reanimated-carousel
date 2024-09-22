@@ -1,6 +1,7 @@
 import React from "react";
 import type { StyleProp, ViewStyle } from "react-native";
 import { View } from "react-native";
+import { TouchableWithoutFeedback } from "react-native-gesture-handler";
 import type { SharedValue } from "react-native-reanimated";
 
 import type { DotStyle } from "./PaginationItem";
