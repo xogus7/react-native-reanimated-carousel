@@ -14,16 +14,16 @@
 ## The best carousel component in React Native community. ⚡️
 
 -   **It completely solved this** [problem](https://github.com/meliorence/react-native-snap-carousel/issues/632) **for `react-native-snap-carousel`**
--   **Fully implemented using Reanimated 2&3**
--   **[Demo](https://dohooo.github.io/react-native-reanimated-carousel/)**
+-   **Fully implemented using Reanimated 3**
+-   **[Examples](https://app.rn-carousel.dev)**
 
 ## Getting Started
 
-Check out [the documentation website](https://reanimated-carousel.dev).
+Check out the [documentation](https://rn-carousel.dev) website.
 
 ## Examples
 
-> Click on the image to see the code snippets [[Try it]](https://snack.expo.dev/@zhaodonghao586/simple-carousel) 🍺
+> Click on the image to see the code snippets [[Try it]](https://snack.expo.dev/@caspian.zhao/react-native-reanimated-carousel) 🍺
 
 |              <img src="assets/normal-horizontal.gif"/>               |                <img src="assets/normal-vertical.gif"/>                |              <img src="assets/parallax-horizontal.gif"/>               |
 | :------------------------------------------------------------------: | :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
@@ -35,7 +35,7 @@ Check out [the documentation website](https://reanimated-carousel.dev).
 |                  <img src="assets/left-align.gif"/>                  | |                  <img src="assets/right-align.gif" >                  |
 |   <a href="./example/app/src/pages/left-align/index.tsx">left-align</a>    |  |   <a href="./example/app/src/pages/right-align/index.tsx">right-align</a>    |
 
-> You can make cool animations with custom animation API [[Details]](https://reanimated-carousel.dev/custom-animations)
+> You can make cool animations with custom animation API [[Details]](https://rn-carousel.dev/custom-animations)
 
 |                          <img src="assets/advanced-parallax.gif"/>                          |                      <img src="assets/pause-advanced-parallax.gif"/>                      |                   <img src="assets/scale-fade-in-out.gif"/>                   |
 | :-----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
