@@ -4,13 +4,7 @@ import Carousel from "react-native-reanimated-carousel";
 
 import { SBItem } from "@/components/SBItem";
 import { window } from "@/constants/sizes";
-import {
-  Image,
-  ImageSourcePropType,
-  View,
-  ViewStyle,
-  useWindowDimensions,
-} from "react-native";
+import { Image, ImageSourcePropType, View, ViewStyle } from "react-native";
 import Animated, {
   Easing,
   Extrapolation,
@@ -26,7 +20,6 @@ import * as Haptics from "expo-haptics";
 import { getImages } from "./images";
 import { IS_WEB } from "@/constants/platform";
 
-const PAGE_WIDTH = window.width;
 const data = getImages().slice(0, 68);
 
 function Index() {
@@ -35,12 +28,16 @@ function Index() {
 
   const baseOptions = {
     vertical: false,
-    width: 480,
-    height: PAGE_WIDTH / 2,
+    width: window.width,
+    height: window.width / 2,
   } as const;
 
   return (
-    <View id="carousel-component" style={{ paddingVertical: 20 }}>
+    <View
+      id="carousel-component"
+      dataSet={{ kind: "custom-animations", name: "quick-swipe" }}
+      style={{ paddingVertical: 20 }}
+    >
       <Carousel
         {...baseOptions}
         loop={false}
